@@ -1,0 +1,156 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#header{
+    min-height: 100px;
+    background-color: #C5C5EC;
+    padding-top: 25px;
+}
+#header a {
+    font-size: 25px;
+    margin-left: 20px;
+    font-family: 'Passion One', cursive;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+#header a:focus {outline:0;}
+.modal-header{
+    font-size: 35px;
+    font-family: 'Passion One', cursive;
+}
+#info_detail{
+    font-family: 'Exo', sans-serif;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.modal-body{
+    font-family: 'Exo', sans-serif;
+    font-size: 21px;
+    padding-left: 35px;
+}
+#instruction {
+    font-size: 35px;
+    font-family: 'Passion One', cursive;
+}
+.container{
+    padding-top: 50px;
+    min-height: 750px;
+}
+footer{
+    height: 200px;
+    padding-top: 40px;
+    background-color: darkgray;
+    color:white;
+}
+#logo{
+    font-size: 55px;
+    font-family: 'Passion One', cursive;
+}
+#author{
+    font-family: 'Exo', sans-serif;
+    font-size: 21px;
+}
+#author a{
+    color: white;
+}
+#main input {
+    font-size: 20px;
+    height:50px;
+}
+#main h1{
+    margin-bottom: 50px;
+    font-family: 'Passion One', cursive;
+}
+.head_title{
+    font-size: 75px;
+    font-family: 'Passion One', cursive;
+}
+#main h3, #file_name{
+    margin-bottom: 40px;
+    font-family: 'Exo', sans-serif;
+}
+#file_name{
+    font-size: 40px;
+    margin-top: 15px;
+}
+.imagediv {
+    float:left;
+    margin-top:50px;
+}
+
+.imagediv .showonhover {
+    background:red;
+    padding:20px;
+    opacity:0.9;
+    color:white;
+    width: 100%;
+    display:block;
+    text-align:center;
+    cursor:pointer;
+}
+
+#main input[type='submit'] {
+    padding: 50px 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    font-size: 40px;
+    margin-left: 10%;
+    font-family: 'Passion One', cursive;
+}
+#import_file, #zip {
+    padding: 50px 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    font-size: 40px;
+    margin-left: 10%;
+    font-family: 'Passion One', cursive;
+}
+#zip{
+    font-size: 20px;
+    margin-top: 35px;
+}
+.tlt2{
+font-size: 75px;
+}
+
+.item{
+    height: 300px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.item:hover {
+    /*background-color: #F8F1F1;*/
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.item i{font-size: 150px;
+margin-bottom: 20px;}
+
+#thumbl{
+    height: 65px;
+    background-color:#D4E0EA;
+    padding-top: 15px;
+}
+#thumbl a{
+    font-size: 40px;
+    margin-left: 100px;
+    color:dimgray;
+    margin-bottom: 15px;
+
+}
+#thumbl a:hover{
+    color: grey;
+}
+
+
+@media(max-width:1000px){
+ #info_detail{
+     font-size: 20px;
+ }
+}
